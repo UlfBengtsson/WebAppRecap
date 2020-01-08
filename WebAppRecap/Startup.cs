@@ -50,7 +50,7 @@ namespace WebAppRecap
             {
                 endpoints.MapControllerRoute(
                     name: "special",
-                    pattern: "Secret/way",
+                    pattern: "Another/Way",
                     defaults: new { controller = "Home", action = "HiddenPath" }
                     );
 
